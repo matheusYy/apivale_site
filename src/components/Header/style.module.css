@@ -1,0 +1,22 @@
+.header {
+ background-color: transparent;
+ margin-bottom: 2em;
+}
+.header::after {
+ margin: auto;
+ content: '';
+ width: 92vw;
+ height: 1px;
+ display: block;
+ background-color: rgb(255, 157, 0);
+}
+
+.navBar {
+ display: flex;
+ color: black;
+ gap: 5px;
+ justify-content: flex-end;
+ align-items: center;
+ margin-right: 1em;
+ height: 5vh;
+}
