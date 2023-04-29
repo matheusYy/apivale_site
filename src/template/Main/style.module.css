@@ -7,6 +7,7 @@
  height: 90vh;
  width: 100%;
  background-color: red;
+ margin-top: 23vh;
 }
 
 .flexCL {
@@ -14,6 +15,8 @@
  line-height: 20px;
  height: 150px;
  overflow: hidden;
+ z-index: 1;
+ position: relative;
 }
 
 
@@ -29,18 +32,21 @@
  gap: 5px;
  justify-content: center;
 }
-
+.favoMelReverse {
+ z-index: 0;
+ position: absolute;
+ width: 100%;
+ height: 279px;
+ top: 10%;
+ left: 22%;
+}
 .buttonSTY {
- color: black;
- border: 1.5px solid white;
- outline: 1.5px solid black;
- display: flex;
- align-items: center;
- gap: 5px;
- border-radius: 4px;
- padding: 5px 0 5px;
- width: 95px;
- background-color: transparent;
+ color: white;
+ border: 1px solid rgb(255, 255, 255);
+ border-radius: 10px;
+ height: 35px;
+ width: 110px;
+ background-color: black;
  transition: background 0.5s ease, color 0.5s ease, all 0.5s ease ;
  margin-bottom: 3em;
 }

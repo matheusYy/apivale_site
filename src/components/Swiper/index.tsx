@@ -42,7 +42,7 @@ export const ScrolPage = () => {
   const { src, width, height } = props
   const [isLoad, setIsLoad] = useState(false)
   return (
-   <div style={{width: '95%', height: '25vh', position: 'relative'}}>
+   <div style={{width: '95%', height: '38vh', position: 'relative'}}>
     { isLoad ? (
      <span style={{position: 'absolute', top: '50%', left: '50%'}}>loading</span>
     ) : null
