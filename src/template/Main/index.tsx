@@ -9,7 +9,7 @@ import { ReactNode } from "react";
 type param = {
  name: string | undefined,
  host: boolean | undefined | null | void,
- children: ReactNode
+ children?: ReactNode
 }
 
 /*
