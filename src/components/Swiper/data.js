@@ -1,5 +1,0 @@
-
-
-
-const d = []
-d.length

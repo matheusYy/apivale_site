@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.h1 {
+  font-size: 1.2em;
+}
+
+.icon {
+  background-color: rgb(255, 234, 44);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inLine {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  gap: 30%;
+}
+
+.copy {
+  font-size: 0.5em;
+}
+
+/*# sourceMappingURL=style.module.css.map */
