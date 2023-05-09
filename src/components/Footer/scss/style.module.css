@@ -9,13 +9,19 @@
 }
 
 .icon {
-  background-color: rgb(255, 234, 44);
+  background-color: black;
   border-radius: 50%;
-  width: 25px;
-  height: 25px;
+  height: max-content;
+  width: max-content;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 8px;
+  margin: 0.5em 0;
+}
+
+.icon > svg {
+  fill: white;
 }
 
 .inLine {

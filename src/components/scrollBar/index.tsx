@@ -18,14 +18,15 @@ export const ScrollBar = () => {
   )
  }
  return (
-  <div className={style.iconScrollBar} style={{ padding: '10px'}}>
+  <div className={style.iconScrollBar} style={{ padding: '10px'}} onClick={() => setOpen(s => !s)}>
     <HamgSvg />
    <nav style={{position: 'absolute'}} className={style.ol}>
     { open ? (
      <div className={style.scrollBar}>
      <Link className={style.hoverEffect} href={'/'}>Contato</Link>
-     <Link className={style.hoverEffect}  href={'/'}>Aprenda</Link>
-     <Link className={style.hoverEffect}  href={'/'}>Pratocinio</Link>
+     <Link className={style.hoverEffect}  href={'/'}>Nossos canais</Link>
+     <Link className={style.hoverEffect}  href={'/'}>Em breve</Link>
+
      </div>
     ) : null
     }

@@ -6,10 +6,10 @@ export const Header = ():JSX.Element => {
 return (
  <header className={style.header}>
   <ScrollBar />
-   <nav className={style.navBar}>
+{/*    <nav className={style.navBar}>
     <Link href={'/'}>Sobre</Link>
     <Link href={'/'}>Contato</Link>
     <Link href={'/'}>Utils</Link>
-   </nav>
+   </nav> */}
  </header>
 )}

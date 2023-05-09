@@ -12,7 +12,7 @@ export const QuemSomos = () => {
        decantadores
     </p>
     <div className={`${style.iFrame}`}>
-     <iframe src="https://www.youtube.com/embed/nKriI47_JHI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+     <iframe src="https://www.youtube.com/embed/nKriI47_JHI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
     </div>
    </article>
   )
